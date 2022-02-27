@@ -103,7 +103,7 @@ function Student(studentName,sponsorshipType,studentNum,faculty,course) {
 // Instances of class Student.
 let nakalawa = new Student("Nakalawa Racheal","Government","06/U/715","Institute of Stastics","Bachelor of Statistics");
 let rwamirego = new Student("Rwamirego Irene","Private","08/U/PR/401","Faculty of Science","Bachelor of Science");
-let ssengendo = new Student("Ssengendo Christopher","Government","06/U/213","Faculty of Technology","Bachelor of Quantity Suerveying");
+let ssengendo = new Student("Ssengendo Christopher","Government","06/U/213","Faculty of Technology","Bachelor of Quantity Surveying");
 
 console.log(nakalawa);
 console.log(rwamirego);
@@ -119,7 +119,7 @@ function Country(countryName,continent,location,population,leaderName) {
 	this.leaderName = leaderName;
 	//Method in class Country.
 	this.patriot = function (){
-		return (`My Country ${this.contryName} is awesome`)
+		return (`My Country ${this.countryName} is awesome`)
 	}
 }
 // Instances of class Country.
